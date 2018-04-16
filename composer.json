@@ -13,7 +13,9 @@
             "email": "masum@activelava.net"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+
     "require": {},
     "autoload": {
         "classmap": [
