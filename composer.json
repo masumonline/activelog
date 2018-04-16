@@ -1,0 +1,26 @@
+{
+    "name": "activelava/activelog",
+    "description": "get user log on every thing",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "log Activiti",
+        "Active log"
+    ],
+    "authors": [
+        {
+            "name": "Riaz Uddin",
+            "email": "masum@activelava.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "activelava\\activelog\\": "src/"
+        }
+    }
+}
