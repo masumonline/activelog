@@ -10,7 +10,8 @@
     "authors": [
         {
             "name": "Riaz Uddin",
-            "email": "masum@activelava.net"
+            "email": "masum@activelava.net",
+            "homepage": "https://activelava.net"
         }
     ],
     "minimum-stability": "dev",
@@ -20,9 +21,6 @@
         "php": ">=5.6.0"
     },
     "autoload": {
-        "classmap": [
-            "src/"
-        ],
         "psr-4": {
             "activelava\\activelog\\": "src/"
         }
