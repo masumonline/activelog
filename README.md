@@ -11,10 +11,13 @@ Activelog is a activiti log creator and viewer.
 ```composer require activelava/activelog:dev-master```
 
 Then
-Add this line to your config/app.php file. in Provider Section
-``` activelava\activelog\ActivelogServiceProvider::class,```
+Add this line to your config/app.php file. 
+``` 
+in Provider Section
+activelava\activelog\ActivelogServiceProvider::class,
 in aliases section
-``` 'Activelog' => App\Helpers\activelog::class, ```
+'Activelog' => App\Helpers\activelog::class, 
+```
 
 Now run
 ```php artisan migrate```
