@@ -6,7 +6,7 @@ use Activelog; //Use this in your controller
 class LogController extends Controller
 {
     public function index(){
-        Activelog::logadd('My Testing Add To Log.');
+        Activelog::logadd('Index controller is visited');
         return "yes";
     }
     

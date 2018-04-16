@@ -38,36 +38,9 @@ Copied Directory [/vendor/activelava/activelog/src/Helpers] To [/App/Helpers]
 Copied Directory [/vendor/activelava/activelog/src/Views] To [/resources/views/vendor/activelava/activelog]
 ```
 
-now in your controller for writing log example
-``` 
-<?php
-namespace App\Http\Controllers;
-use Illuminate\Http\Request;
-use Activelog; //Use this in your controller
+There is an example controller in app/Http/Controllers folder name LogController.php
 
-class HomeController extends Controller
-{
-    public function index(){
-        Activelog::logadd('My Testing Add To Log.');
-        return "yes";
-    }
-}
-```
-Now for viewing log try this example
-```
-<?php
-namespace App\Http\Controllers;
-use Illuminate\Http\Request;
-use Activelog;
-class HomeController extends Controller
-{
-    public function show(){
-        $logs = Activelog::loglists();
-        return view('vendor.activelava.activelog.ActiveLog',compact('logs'));
-        
-    }
-}
-```
+open it and check how its Done.
 
 License
 ----
