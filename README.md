@@ -20,10 +20,14 @@ in aliases section
 ```
 
 Now run
-```php artisan migrate```
+```
+php artisan migrate
+```
 a new Table will create in your database.
 Then Run
-```php artisan vendor:publish```
+```
+php artisan vendor:publish
+```
 
 It will publish the helper and model and view in your project
 
