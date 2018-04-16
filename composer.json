@@ -23,5 +23,16 @@
         "psr-4": {
             "activelava\\activelog\\": "src/"
         }
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "activelava\\activelog\\ActivelogServiceProvider"
+        ],
+        "aliases": {
+            "Activelog": "App\\Helpers\\activelog"
+        }
     }
+}
+
 }
