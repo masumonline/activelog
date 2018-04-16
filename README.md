@@ -5,6 +5,8 @@ Activelog is a activiti log creator and viewer.
   - It create log on every controller you want
   - use any where in your controller
   - Show log report
+  
+  ![alt text](laravel.png)
 
 ### Installation
 
