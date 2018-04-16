@@ -17,8 +17,9 @@ class ActivelogServiceProvider extends ServiceProvider
 
         $this->publishes(
             [
-                __DIR__.'/Model' => base_path('App'),
-                __DIR__.'/Helpers/' => base_path('App/Helpers'),
+                __DIR__.'/Model' => base_path('app'),
+                __DIR__.'/Controller' => base_path('app/Http/Controllers'),
+                __DIR__.'/Helpers/' => base_path('app/Helpers'),
                 __DIR__.'/Views' => base_path('resources/views/vendor/activelava/activelog'),
             ]
         );
