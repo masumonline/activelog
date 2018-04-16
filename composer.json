@@ -1,6 +1,7 @@
 {
     "name": "activelava/activelog",
     "description": "get user log on every thing",
+    "type": "package",
     "license": "MIT",
     "keywords": [
         "laravel",
